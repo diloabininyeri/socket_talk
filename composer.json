@@ -2,7 +2,7 @@
   "name": "zeus/socket_talk",
   "description": "description",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "DILO SURUCU",
