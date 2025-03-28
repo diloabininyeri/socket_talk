@@ -1,6 +1,6 @@
 {
   "name": "zeus/socket_talk",
-  "description": "description",
+  "description": "this library provides talks with the web sockets",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
