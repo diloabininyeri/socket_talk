@@ -1,0 +1,17 @@
+{
+  "name": "zeus/socket_talk",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "DILO SURUCU",
+      "email": "berxudar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zeus\\SocketTalk\\": "src/"
+    }
+  }
+}
