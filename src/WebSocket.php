@@ -47,7 +47,7 @@ class WebSocket
      */
     public function disconnect(): bool
     {
-        return fclose($this->handshake->getConnectionSocket());
+        return $this->handshake->disconnect();
     }
 
     /**
@@ -80,9 +80,7 @@ class WebSocket
         if (!$this->handshake->isConnectionSuccessful()) {
             return null;
         }
-
         $data = WebSocketFrameReader::read($this->handshake->getConnectionSocket());
-
         if ($data === '') {
             return  null;
         }
